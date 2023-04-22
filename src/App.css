@@ -1,0 +1,9 @@
+.app {
+  width: 100rem;
+  aspect-ratio: 3/4;
+  background: var(--bg-clr);
+  display: inline-block;
+  border-radius: 2rem;
+  overflow: hidden;
+  box-shadow: 0 0 2rem #0006;
+}

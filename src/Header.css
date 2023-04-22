@@ -1,0 +1,11 @@
+header {
+  text-align: center;
+  background: var(--main-clr);
+  height: 10rem;
+}
+
+header > h2 {
+  font-size: 4rem;
+  color: white;
+  transform: translateY(calc(5rem - 50%));
+}

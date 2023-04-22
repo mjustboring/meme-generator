@@ -1,0 +1,36 @@
+.meme {
+  position: relative;
+  width: 90rem;
+  height: 90rem;
+  left: 5rem;
+  overflow: auto;
+}
+
+.meme-img {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.meme-img > img {
+  width: 100%;
+}
+
+.meme-top, .meme-bottom {
+  position: absolute;
+  color: white;
+  font-size: 6rem;
+  font-weight: 900;
+  -webkit-text-stroke: 0.25rem black;
+}
+
+.meme-top {
+  top: 2rem;
+}
+
+.meme-bottom {
+  bottom: 2rem;
+}

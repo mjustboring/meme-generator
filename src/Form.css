@@ -1,0 +1,24 @@
+form {
+  text-align: center;
+  height: 30rem;
+}
+
+form > input {
+  text-indent: 1rem;
+  width: 40rem;
+  margin-block: 4rem;
+  padding-top: 1rem;
+}
+
+.form-top {
+  margin-right: 4rem;
+}
+
+button {
+  background: var(--main-clr);
+  color: white;
+  border: none;
+  padding-block: 2rem;
+  border-radius: 1rem;
+  width: 84rem;
+}
